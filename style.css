@@ -1,0 +1,425 @@
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .lava {
+       color:#eee7e9;  
+
+    
+  }
+  
+  .logic {
+    color: #000000; /* Black color code */
+  }
+  
+header {
+	background-color:#EF4271
+    ;
+	color: #101010
+    ;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+    
+}
+
+.menu li {
+	margin-left: 40px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+    font-size: 25px;
+
+
+}
+
+.contact .button {
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #333;
+	border-radius: 20px;
+}
+
+.hamburger {
+	display: none;
+}
+
+.mobile-menu {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.mobile-menu {
+		display: block;
+		background-color: #333;
+		padding: 20px;
+	}
+
+	.mobile-menu ul {
+		list-style: none;
+	}
+
+	.mobile-menu li {
+		margin-bottom: 10px;
+	}
+
+	.mobile-menu a {
+		color: #fff;
+		text-decoration: none;
+		display: block;
+		padding: 10px 0;
+	}
+
+	.mobile-menu .button {
+		display: block;
+		margin-top: 10px;
+	}
+}
+
+
+/*------------------------------------------------ About us --------------------------------------------------------- */
+
+
+
+#man {
+    background-color: #fff;
+  }
+  
+  .abouth1 {
+
+    margin-left: 250px;
+    margin-top: 150px;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 80px;
+    font-family: Inter;
+
+
+
+   
+
+    
+  }
+  
+ .about-para
+ {
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: 20px;
+ }
+  .manimg {
+    width: 680px;
+    height: 550px;
+  }
+  
+  .mancontainer {
+    position: relative; 
+     left: 25px; 
+     margin-right: 550px;
+  
+  }
+  .manabout {
+    position: absolute;
+    top: 140px;
+    right: 0px;
+  
+  }
+
+
+
+  .grid-container{
+    display:grid;
+    grid-template-columns: auto auto ;
+  }
+
+
+/*  -----------------------------Our Expertise Section ----------------------------------------------------*/
+
+
+
+.form-para{
+    font-size: x-large;
+    margin-top: 60px;
+    margin-right: 170px;
+}
+  .grid-exp-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 1px;
+    margin-top: 70px;
+  }
+  
+  .box1 {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    row-gap: 4px;
+    /* background-color: #f2f2f2; */
+  }
+  
+  .logo-container {
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    /* height: 100%; */
+  }
+  
+  .logo {
+    width: 250px;
+    height: 100px;
+    background-color:#EF4271;
+    border-radius: 50%;
+    justify-content: center;
+    margin-left: 80px;
+
+    left: 4.8%;
+right: 82.58%;
+top: 21.59%;
+bottom: 21.59%;
+
+  }
+  
+  .box2 {
+    /* grid-row: 1; */
+    /* grid-column: 2 / span 2; */
+    background-color: #f2f2f2;
+  }
+  
+  .content {
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  
+
+  .exp-heading{
+
+text-align: center;
+font-size: large;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 150px;
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .grid-exp-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, auto);
+    }
+    
+    .box1 {
+      grid-row: 1;
+      grid-column: 1;
+    }
+    
+    .box2 {
+      grid-row: 2;
+      grid-column: 1;
+    }
+
+  }
+  
+
+.fa-solid {
+    text-align: center;
+}
+
+
+
+
+
+.grid-ourexp-container{
+   
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: auto auto ;
+}
+
+.date{
+    float: right;
+    margin-left: 40px;
+}
+
+.form{
+    margin-left: 50px;
+}
+.formbtn {
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #333;
+	border-radius: 20px;
+    margin-top: 280px;
+    margin-right: 280px;
+    margin-bottom: 200px;
+    float :right;
+}
+
+.formbtn:hover{
+
+    background-color: #EF4271;
+	color: #f3eeee;
+
+}
+
+.ourexp-img {
+    border-right: 3px solid #EF4271;
+    margin-left: 140px;
+}
+
+
+  /*------------------------------------------- Our Technologies Section----------------------------------------------------------- */
+
+ 
+  .grid-tech-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .grid-item {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .box {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .box img {
+    max-width: 30%;
+    height: auto;
+   
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-tech-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+
+  /* ---------------------------------------------------footer ---------------------------------------------------------*/
+
+  .icoon {
+    margin-left: 290px;
+    float: right;
+  }
+  
+  footer {
+    background-color:#EF4271
+    ;
+    margin-left: 0px;
+    padding-top: 200;
+    padding: 50px 10px 20px 0px;
+    margin-top: 50px;
+  }
+  
+  .fc {
+    margin-left: 20px;
+    display: grid;
+    column-gap: 25px;
+    padding-top: 200;
+    justify-items: center;
+    font-size: 20px;
+    grid-template-columns:
+      repeat(5, 2fr);
+  }
+  
+  .sicon {
+    color: rgb(255, 255, 255);
+    margin: auto;
+  }
+  
+  .flogo {
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .footerfontcolor {
+    color: rgb(255, 255, 255);
+  }
+  
+  .footerheadingcolor {
+    color: #4F4F4F;
+  }
+  
+  .socialicons {
+    font-size: 20px;
+  
+    padding: 10px 10px;
+    background-color: white;
+    color: #131313;
+    border-radius: 100%;
+  }
+  
+  .footerheadings ul {
+    width: 250px;
+  }
+  
+  .footerheadings li,
+  a {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px 0px;
+    line-height: 21px;
+  }
+  
+  
